@@ -12,33 +12,33 @@
 ; ;; variable ;;
 ; ;;;;;;;;;;;;;
 (require 'init-variable)
-;
-;
+
+
 ; ;;;;;;;;;;;;;
 ; ;; 用户界面 ;;
 ; ;;;;;;;;;;;;;
-; (require 'init-ui)
+(require 'init-ui)
 ;
 ; ;;;;;;;;;;;;;
 ; ;; 代码补全 ;;
 ; ;;;;;;;;;;;;;
-; (require 'init-complete)
-; (require 'init-prog)
+(require 'init-complete)
+(require 'init-prog)
 ;
 ; ;;;;;;;;;;;;;;
 ; ;; lsp-mode ;;
 ; ;;;;;;;;;;;;;;
-; (require 'init-lsp)
+(require 'init-lsp)
 ;
 ; ;;;;;;;;;;;;;;
 ; ;; treemacs ;;
 ; ;;;;;;;;;;;;;;
-; (require 'init-treemacs)
+(require 'init-treemacs)
 ;
 ; ;;;;;;;;;;;;;;
 ; ;; hydra ;;
 ; ;;;;;;;;;;;;;;
-; (require 'init-hydra)
+(require 'init-hydra)
 ;
 ; ;;;;;;;;;;;;;;
 ; ;; eaf ;;   ;;mac 上兼容性不好
@@ -57,22 +57,22 @@
 ; (require 'init-awesome-tab)
 ;
 ;
-; ;;;;;;;;;;;;;;
-; ;; org ;;
-; ;;;;;;;;;;;;;;
-; (require 'init-org)
+;;;;;;;;;;;;;;
+;; org ;;
+;;;;;;;;;;;;;;
+(require 'init-org)
 ;
 ;
-; ;;;;;;;;;;;;;;
-; ;; keybind ;;
-; ;;;;;;;;;;;;;;
-; (require 'init-keybind)
-;
-;
-; ;;;;;;;;;;;;;;
-; ;; snail ;;
-; ;;;;;;;;;;;;;;
-; (require 'init-snail)
+;;;;;;;;;;;;;;
+;; keybind ;;
+;;;;;;;;;;;;;;
+(require 'init-keybind)
+
+
+;;;;;;;;;;;;;;
+;; snail ;;
+;;;;;;;;;;;;;;
+(require 'init-snail)
 
 
 (provide 'init-config)
