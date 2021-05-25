@@ -3,21 +3,16 @@
 ;;;;;;;;;;;;;
 (require 'init-package)
 
+;;;;;;;;;;;;;;
+;; 基础配置  ;;
+;;;;;;;;;;;;;;
+(require 'init-basic)
 
-; ;;;;;;;;;;;;;
-; ;; autoload;;
-; ;;;;;;;;;;;;;
-; (require 'init-autoload)
-;
 ; ;;;;;;;;;;;;;
 ; ;; variable ;;
 ; ;;;;;;;;;;;;;
-; (require 'init-variable)
+(require 'init-variable)
 ;
-; ;;;;;;;;;;;;;;
-; ;; 基础配置  ;;
-; ;;;;;;;;;;;;;;
-; (require 'init-basic)
 ;
 ; ;;;;;;;;;;;;;
 ; ;; 用户界面 ;;
