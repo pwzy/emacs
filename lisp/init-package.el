@@ -30,6 +30,10 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+; (use-package esup
+;   :ensure t)
+
+
 ;; 安装quelpa包管理器（用于安装github上的插件）
 (unless (package-installed-p 'quelpa)
   (with-temp-buffer
@@ -45,10 +49,6 @@
 (setq quelpa-upgrade-interval 7
       quelpa-update-melpa-p nil)
 
-;; 测试启动耗时
-(use-package benchmark-init
-  :init (benchmark-init/activate)
-  :hook (after-init . benchmark-init/deactivate))
 
 (use-package exec-path-from-shell
   :ensure t
