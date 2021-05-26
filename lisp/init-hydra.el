@@ -123,7 +123,7 @@
   ("Counsel"
    (("a" counsel-ag "counsel-ag" :toggle t)
     ("l" counsel-load-theme "counsel-load-theme" :toggle t)
-    ("b" counsel-ibuffer "counsel-ibuffer" :toggle t)
+    ("b" ibuffer "counsel-ibuffer" :toggle t)
     ("f" counsel-fzf "counsel-fzf" :toggle t))
    "Avy"
    (("w" avy-goto-word-0 "avy-goto-word-0" :toggle t)
