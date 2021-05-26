@@ -45,6 +45,11 @@
 (setq quelpa-upgrade-interval 7
       quelpa-update-melpa-p nil)
 
+;; 测试启动耗时
+(use-package benchmark-init
+  :init (benchmark-init/activate)
+  :hook (after-init . benchmark-init/deactivate))
+
 (use-package exec-path-from-shell
   :ensure t
   :config
