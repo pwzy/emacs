@@ -23,9 +23,10 @@
   :config
   (setq yas-snippet-dirs '("~/.emacs.d/var/snippets")))
 
-; (use-package rainbow-delimiters
-;   :defer 1
-;   :config
-;   (add-hook 'prog-mode-hook 'rainbow-delimiters-mode))
+;; 彩虹括号插件
+(use-package rainbow-delimiters
+  :defer 1
+  :config
+  (add-hook 'prog-mode-hook 'rainbow-delimiters-mode))
 
 (provide 'init-complete)

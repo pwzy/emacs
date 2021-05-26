@@ -1,11 +1,3 @@
-
-;; 大量可用的代码片段
-(use-package 
-  yasnippet-snippets 
-  :ensure t
-  :after yasnippet)
-
-
 (use-package dap-mode
  :defer t 
  :ensure t
@@ -17,5 +9,4 @@
  )
 
 
-
-(provide 'init-prog)
+(provide 'init-debug)
