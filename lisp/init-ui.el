@@ -54,6 +54,12 @@
   :defer t 
   :ensure t)
 
+;; dired模式图标支持
+(use-package all-the-icons-dired
+  :defer t 
+  :ensure t
+  :hook ('dired-mode . 'all-the-icons-dired-mode))
+
 
 ;; 竖线 很重要
 (use-package page-break-lines
