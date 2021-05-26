@@ -3,10 +3,10 @@
 ;;;;;;;;;;;;;
 (require 'init-package)
 
-; ;;;;;;;;;;;;;
-; ;; variable ;;
-; ;;;;;;;;;;;;;
-; (require 'init-variable)
+;;;;;;;;;;;;;;
+;; variable ;;
+;;;;;;;;;;;;;;
+(require 'init-variable)
 ;
 ; ;;;;;;;;;;;;;;
 ; ;; 基础配置  ;;
