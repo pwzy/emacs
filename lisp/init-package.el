@@ -7,9 +7,9 @@
 ;                          ("org" . "https://mirrors.sjtug.sjtu.edu.cn/emacs-elpa/org/")))
 
 
-; (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-;                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-;                          ("org"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+                         ("org"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 
 ; ;; Emacs China ELPA
 ; (setq package-archives
@@ -18,10 +18,10 @@
 ;         ("org"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 
 ;; Wangyi ELPA
-(setq package-archives
-      '(("gnu"   . "http://mirrors.163.com/elpa/gn/")
-        ("melpa" . "http://mirrors.163.com/elpa/melpa/")
-        ("org"   . "http://mirrors.163.com/elpa/org/")))
+; (setq package-archives
+;       '(("gnu"   . "http://mirrors.163.com/elpa/gn/")
+;         ("melpa" . "http://mirrors.163.com/elpa/melpa/")
+;         ("org"   . "http://mirrors.163.com/elpa/org/")))
 
 
 

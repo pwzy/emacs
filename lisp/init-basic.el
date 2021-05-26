@@ -8,7 +8,7 @@
 (set-default 'truncate-lines t)
 
 ;; 关闭滚动条
-(scroll-bar-mode -1)
+; (scroll-bar-mode -1)
 
 ;; 关闭工具栏
 (tool-bar-mode -1)
