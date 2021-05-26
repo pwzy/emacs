@@ -1,9 +1,6 @@
-
 ;; 开启全屏 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-;; 解决Emacs在KDE下最大化出现间隙的问题
-(setq frame-resize-pixelwise t)
 ;; 设置光标颜色
 ;; (set-cursor-color "green")
 ;; 设置光标样式
@@ -14,18 +11,11 @@
 ;; 高亮当前行
 (global-hl-line-mode 1)
 
-
 ;; 主题包									
 (use-package doom-themes
   :ensure t
   :config
   (load-theme 'doom-Iosvkem t))
-
-; (use-package kaolin-themes
-;   :ensure t
-;   :config
-;   (load-theme 'kaolin-dark t)
-;   (kaolin-treemacs-theme))
 
 
 (use-package doom-modeline
@@ -60,23 +50,12 @@
   (setq dashboard-set-navigator t)
   (add-hook 'after-init-hook (lambda () (dashboard-refresh-buffer))))
 
-(progn
-  (use-package all-the-icons
-    :defer t 
-	:ensure t)
-  ;; dired模式图标支持
-  (use-package all-the-icons-dired
-    :defer t 
-	:ensure t
-	:hook ('dired-mode . 'all-the-icons-dired-mode))
-  ;; 表情符号
-  (use-package emojify
-    :defer t 
-	:ensure t
-	:custom (emojify-emojis-dir "~/.emacs.d/var/emojis")))
+(use-package all-the-icons
+  :defer t 
+  :ensure t)
 
 
-;; 竖线
+;; 竖线 很重要
 (use-package page-break-lines
 
     :defer t 
@@ -137,7 +116,5 @@
   :config 
   (transwin-ask-set-transparency 85)
   )
-
-
 
 (provide 'init-ui)
