@@ -137,8 +137,9 @@
     ; ("c" flycheck-mode "flycheck" :toggle t)
     )
 
-   "Window"
+   "Terminal"
    (
+    ("v" evil-mode "evil-mode" :toggle t)
     ("o" ace-window "ace-window" :toggle t)
     ; ("v" flyspell-mode "flyspell" :toggle t)
     ; ("c" flycheck-mode "flycheck" :toggle t)
