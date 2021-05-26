@@ -63,5 +63,9 @@
 ;;;;;;;;;;;;;;
 (require 'init-snail)
 
+;;;;;;;;;;;;;;
+;; eaf   ;;;;;
+;;;;;;;;;;;;;;
+(require 'init-eaf)
 
 (provide 'init-config)
