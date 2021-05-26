@@ -19,6 +19,10 @@
 ;; 菜单栏
 (menu-bar-mode t)
 
+;; 开启自动换行
+(toggle-truncate-lines 1)
+
+
 ;; 开启行号
 (global-display-line-numbers-mode +1)
 
