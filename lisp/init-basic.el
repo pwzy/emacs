@@ -8,10 +8,6 @@
 (setq eshell-history-file-name "~/.emacs.d/var/eshell/history")
 (setq recentf-save-file "~/.emacs.d/var/recentf")
 (setq recentf-max-menu-items 20)
-(setq x-select-enable-clipboard t)
-
-;; 设置自动拆(折)行
-(set-default 'truncate-lines t)
 
 ;; 滚动条
 ;; (push '(scroll-bar-mode -1) graphic-only-plugins-setting)
@@ -22,12 +18,6 @@
 
 ;; 菜单栏
 (menu-bar-mode t)
-
-;; 自动换行
-(toggle-truncate-lines t)
-
-;; 自动刷新被修改过的文件
-(global-auto-revert-mode +1)
 
 ;; 开启行号
 (global-display-line-numbers-mode +1)
@@ -48,9 +38,6 @@
 
 ;; 随时重新加载发生修改过的文件
 (setq load-prefer-newer t)
-
-;; 关闭字体缓存gc
-(setq inhibit-compacting-font-caches nil)
 
 ;; 关闭烦人的提示
 (setq ring-bell-function 'ignore blink-cursor-mode nil)
@@ -76,17 +63,6 @@
 
 ;; 关闭自动调节行高
 (setq auto-window-vscroll nil)
-;; 关闭自动换行的功能
-(setq truncate-partial-width-windows nil)
-
-;; 创建新行的动作
-;; 回车时创建新行并且对齐
-(global-set-key (kbd "RET") 'newline-and-indent)
-;; 取消对齐创建的新行
-(global-set-key (kbd "S-<return>") 'comment-indent-new-line)
-
-;; 让光标无法离开视线
-(setq mouse-yank-at-point nil)
 
 ;; 最大单行字符数量
 (setq-default fill-column 80)
@@ -105,7 +81,6 @@
 ;; 高亮对应的括号
 (show-paren-mode 1)
 
-;; (recentf-load-list)
 ;; 键位提示
 (use-package which-key
   :ensure t
@@ -175,10 +150,6 @@
   (with-eval-after-load 'projectile
     (setq projectile-completion-system 'ivy)))
 
-
-(use-package exec-path-from-shell
-	     :ensure t)
-
 ;; 强大的字符跳转工具
 (use-package avy
   :defer 0
@@ -195,16 +166,6 @@
 ;; 饥饿删除（一次性删除多个连续的空白符）
 (use-package hungry-delete
   :ensure t)
-
-;;; 利用avy跳转链接
-(use-package link-hint
-  :ensure t
-  :bind (("M-g l" . link-hint-open-link)))
-
-;; xorg剪贴板工具
-(use-package xclip
-  :ensure t
-  :hook (after-init . xclip-mode))
 
 ;; 默认目录为~/.emacs.d/
 (cd "~")
