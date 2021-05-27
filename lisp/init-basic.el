@@ -17,7 +17,7 @@
 (tool-bar-mode -1)
 
 ;; 菜单栏
-(menu-bar-mode t)
+(menu-bar-mode nil)
 
 ;; 开启自动换行
 (toggle-truncate-lines 1)
