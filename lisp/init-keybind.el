@@ -2,7 +2,7 @@
 (use-package evil
   :ensure t
   :config
-  (evil-mode t)
+;;  (evil-mode t)
   )
 
 (use-package evil-surround
