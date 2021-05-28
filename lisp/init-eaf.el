@@ -22,6 +22,9 @@
   (setq eaf-proxy-type "http")
   (setq eaf-proxy-host "127.0.0.1")
   (setq eaf-proxy-port "7890")
+
+  ;; setting for eaf brower
+  (eaf-setq eaf-browser-default-zoom "2.0")
   )
 
 (provide 'init-eaf)
