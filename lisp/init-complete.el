@@ -28,8 +28,10 @@
   
 ;; 彩虹括号插件
 (use-package rainbow-delimiters
-  :defer 1
-  :config
-  (add-hook 'after-init 'rainbow-delimiters-mode))
+  :ensure t
+  :config 
+  (rainbow-delimiters-mode 1))
+
+
 
 (provide 'init-complete)
