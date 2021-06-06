@@ -21,6 +21,8 @@
   :ensure t
   :defer t
   :config
+  (use-package yasnippet-snippets
+    :ensure t)
   (setq yas-snippet-dirs '("~/.emacs.d/var/snippets"))
   (yas-global-mode 1))
 
