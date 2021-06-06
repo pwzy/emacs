@@ -68,4 +68,9 @@
 ;;;;;;;;;;;;;;
 (require 'init-eaf)
 
+;;;;;;;;;;;;;;
+;; imenu-list;
+;;;;;;;;;;;;;;
+(require 'init-imenu)
+
 (provide 'init-config)

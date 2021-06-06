@@ -120,7 +120,7 @@
 (use-package transwin
   :ensure t
   :config 
-  (transwin-ask-set-transparency 85)
+  (transwin-ask-set-transparency 90)
   )
 
 (provide 'init-ui)
