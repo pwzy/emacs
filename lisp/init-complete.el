@@ -29,8 +29,10 @@
 ;; 彩虹括号插件
 (use-package rainbow-delimiters
   :ensure t
-  :config 
-  (rainbow-delimiters-mode 1))
+  :config
+  (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+  )
+
 
 
 
