@@ -19,13 +19,13 @@
 (use-package yasnippet 
   :defer t 
   :ensure t
-  :defer t
   :config
-  (use-package yasnippet-snippets
-    :ensure t)
   (setq yas-snippet-dirs '("~/.emacs.d/var/snippets"))
   (yas-global-mode 1))
 
+(use-package yasnippet-snippets
+  :ensure t)
+  
 ;; 彩虹括号插件
 (use-package rainbow-delimiters
   :defer 1
