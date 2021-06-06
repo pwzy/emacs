@@ -19,7 +19,7 @@
 (use-package yasnippet 
   :defer t 
   :ensure t
-  :defer 2
+  :defer t
   :config
   (setq yas-snippet-dirs '("~/.emacs.d/var/snippets")))
 
