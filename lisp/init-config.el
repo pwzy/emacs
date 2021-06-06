@@ -66,11 +66,6 @@
 ;;;;;;;;;;;;;;
 ;; eaf   ;;;;;
 ;;;;;;;;;;;;;;
-(require 'init-fzf)
-
-;;;;;;;;;;;;;;
-;; eaf   ;;;;;
-;;;;;;;;;;;;;;
 (require 'init-eaf)
 
 (provide 'init-config)
