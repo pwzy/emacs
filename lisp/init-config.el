@@ -73,4 +73,10 @@
 ;;;;;;;;;;;;;;
 (require 'init-imenu)
 
+;;;;;;;;;;;;;;
+;; projectile;
+;;;;;;;;;;;;;;
+(require 'init-projectile)
+
+
 (provide 'init-config)
