@@ -27,6 +27,6 @@
 (use-package rainbow-delimiters
   :defer 1
   :config
-  (add-hook 'prog-mode-hook 'rainbow-delimiters-mode))
+  (add-hook 'after-init 'rainbow-delimiters-mode))
 
 (provide 'init-complete)
