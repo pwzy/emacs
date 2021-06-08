@@ -9,6 +9,13 @@
 (setq recentf-save-file "~/.emacs.d/var/recentf")
 (setq recentf-max-menu-items 20)
 
+(setq 
+    shell-file-name "/bin/zsh"
+    custom-file "~/.emacs.d/var/custom.el"
+    )
+;; 加载自定义配置
+(load-file "~/.emacs.d/var/custom.el")
+
 ;; 滚动条
 ;; (push '(scroll-bar-mode -1) graphic-only-plugins-setting)
 (scroll-bar-mode t)
