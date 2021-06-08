@@ -4,11 +4,6 @@
 (require 'init-package)
 
 ;;;;;;;;;;;;;;
-;; variable ;;
-;;;;;;;;;;;;;;
-(require 'init-variable)
-
-;;;;;;;;;;;;;;
 ;; 基础配置  ;;
 ;;;;;;;;;;;;;;
 (require 'init-basic)
