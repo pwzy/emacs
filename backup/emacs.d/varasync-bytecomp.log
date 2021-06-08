@@ -1,0 +1,14 @@
+
+In fuz-build-and-load-dymod:
+fuz.el:90:4: Warning: ‘(windows-nt ms-dos cygwin)’ is a malformed function
+fuz.el:90:4: Warning: ‘(windows-nt ms-dos cygwin)’ is a malformed function
+fuz.el:96:23: Warning: ‘t’ called as a function
+fuz.el:104:33: Warning: ‘t’ called as a function
+fuz.el:106:40: Warning: ‘t’ called as a function
+
+In end of data:
+fuz.el:106:27: Warning: the function ‘windows-nt’ is not known to be
+    defined.
+fuz.el:97:23: Warning: the function ‘t’ is not known to be defined.
+fuz.el:96:23: Warning: the function ‘darwin’ is not known to be defined.
+fuz.el:94:21: Warning: the function ‘cl-case’ is not known to be defined.
