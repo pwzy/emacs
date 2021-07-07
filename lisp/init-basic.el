@@ -4,7 +4,7 @@
 ;; 设置缓存文件/杂七杂八的文件存放的地址
 (setq user-emacs-directory "~/.emacs.d/var")
 
-;; 设置eshell历史记录
+;; 设置历史记录
 (setq eshell-history-file-name "~/.emacs.d/var/eshell/history")
 (setq recentf-save-file "~/.emacs.d/var/recentf")
 (setq recentf-max-menu-items 20)
