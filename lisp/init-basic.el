@@ -8,7 +8,7 @@
 (setq eshell-history-file-name "~/.emacs.d/var/eshell/history")
 (setq recentf-save-file "~/.emacs.d/var/recentf")
 (setq recentf-max-menu-items 20)
-
+;; 设置shell及自定义配置文件夹
 (setq 
     shell-file-name "/bin/zsh"
     custom-file "~/.emacs.d/var/custom.el"
