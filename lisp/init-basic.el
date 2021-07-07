@@ -178,6 +178,10 @@
 (use-package hungry-delete
   :ensure t)
 
+;; 撤销树
+(use-package undo-tree
+  :ensure t)
+
 ;; 默认目录为~/.emacs.d/
 (cd "~")
 
